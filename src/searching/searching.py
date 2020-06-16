@@ -14,7 +14,7 @@ def binary_search(arr, target, start, end):
         return -1 
     elif arr[mid] > target: 
         return binary_search(arr, target, start, mid - 1)  
-    elif arr[mid < target]: 
+    elif arr[mid] < target: 
         return binary_search(arr, target, mid + 1, end) 
 
 # arr1 = [-9, -8, -6, -4, -3, -2, 0, 1, 2, 3, 5, 7, 8, 9]
